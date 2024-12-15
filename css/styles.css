@@ -60,9 +60,9 @@ body{
   
 }
 
-.logot:hover, .logof:hover, .logofoot:hover {color: #404bbf;}
+.logot:hover, .logof:hover, .logofoot:hover, .logo-foot:hover {color: #404bbf;}
 
-.logot:active, .logof:active, .logofoot:active{ 
+.logot:active, .logof:active, .logofoot:active, .logo-foot:active{ 
     color: #404bbf; 
     text-decoration: underline;}
 
@@ -111,15 +111,6 @@ img{
 .start-scr, .business, .sec-team, .portf-list{
     padding-top: 120px;
     padding-bottom: 120px;
-}
-
-.container {
-    max-width: 1158px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 156px;
-    margin-right: 156px;
-
 }
 
 .addr-fon{font-style: normal;}
@@ -199,10 +190,6 @@ img{
     
 }
 
-.visually-hidden {
-    position: fixed;
-    transform: scale(0);
-}
 
 .eff-sol-card{
 flex-basis: calc((100% - 72px) / 4);
@@ -238,7 +225,7 @@ flex-basis: calc((100% - 72px) / 4);
     text-align: center;
     color: #2e2f42;
     letter-spacing: 0.02em;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .team-list .descr{
@@ -302,7 +289,7 @@ flex-basis: calc((100% - 72px) / 4);
     line-height: 1.5;
     color: #f4f4fd;
       
-    width: 270px;
+    max-width: 264px;
 
 }
 
@@ -311,11 +298,20 @@ flex-basis: calc((100% - 72px) / 4);
     background-color:#2e2f42;
     padding: 100px 0;
 }
-.foot-logo .logof{
-  display: inline-block;
-  margin-bottom: 16px;
+
+.logo-foot{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+    margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .logofoot{color: #f4f4fd;}
-.foot-logo{
-    display: block;
-    }
+
+
